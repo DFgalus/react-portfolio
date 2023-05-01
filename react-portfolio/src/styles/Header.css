@@ -1,12 +1,25 @@
 .header {
-  background: #b71775;
-  height: 200px;
+  background: yellow;
+  height: 125px;
 }
 
 .header h1 {
-  margin: 0;
-  padding-top: 75px;
+  padding-top: 10px; ;
   text-align: center;
   color: white;
-  font-size: 3rem;
+  font-size: 70px;
+}
+
+.container a {
+  height: 30px;
+  color: brown;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 3;
+}
+
+a {
+  
 }
