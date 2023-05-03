@@ -1,12 +1,15 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+
 function Nav({ page, handlePage}) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+    <nav className="navbar navbar-expand-md bg-body-tertiary bg-secondary shadow-lg">
     <div className="container-fluid">
-        <a className="navbar-brand text-light fs-4" href="/">Damian Galus - FullStack Developer</a>
+        <a className="navbar-brand text-light fs-3 align-items-end" href="/">Damian Galus</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-around py-2 fs-4" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end py-2 fs-3" id="navbarNav">
         <ul className="navbar-nav">
             <li className="nav-item">
             <a 
@@ -14,7 +17,7 @@ function Nav({ page, handlePage}) {
             onClick={(e) => handlePage(e, 'about')}
             className={page === 'about' ? 'nav-link active' : 'nav-link text-light'}
             >
-                About
+                <FontAwesomeIcon icon={faHouse} beatFade />
             </a>
             </li>
             <li className="nav-item">
