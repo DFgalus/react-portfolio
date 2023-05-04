@@ -1,0 +1,8 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$custom-colors: (
+  "pallette-main": #065a60
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

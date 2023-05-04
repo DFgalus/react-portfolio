@@ -4,7 +4,8 @@ export default function Project(){
     return (
         <section>
             <div className='container-lg'>
-                <h1>Testing</h1>
+                <h1>Projects</h1>
+                
             </div>
         </section>
     )

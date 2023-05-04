@@ -3,7 +3,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 function Nav({ page, handlePage}) {
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary bg-secondary shadow-lg">
+    <nav className="navbar navbar-expand-md bg-body-tertiary shadow-lg">
     <div className="container-fluid">
         <a className="navbar-brand text-light fs-3 align-items-end" href="/">Damian Galus</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
