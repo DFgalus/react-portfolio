@@ -11,7 +11,7 @@ export default function About() {
                         <p className='lead text-muted'>Thank you for viewing my portfolio, if you have any questions or would like to collaborate, feel free to contact me!</p>
                         <a href='mailto:damiangdev@gmail.com' type='button' className='btn text-light'>Contact Me</a>
                     </div>
-                    <div className='col-lg-5 text center h-25 w-25'>
+                    <div className='col-lg-5 text center h-25 w-25 pt-4 mt-4'>
                         <img className='img-fluid align-items-center rounded-pill rounded-5 border border-dark-subtle border-5'src='/images/PFP.jpg' alt='PFP'></img>
                     </div>
                 </div>
