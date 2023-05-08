@@ -6,6 +6,10 @@ a.btn {
     background-color: #0b525b;
 }
 
+.btn {
+    background-color: #0b525b;
+}
+
 .navbar {
     background-color: #006466;
 }
@@ -16,4 +20,11 @@ a.btn {
 
 .lead {
     color:purple ;
+}
+
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
 }

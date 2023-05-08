@@ -48,8 +48,11 @@ function Contact() {
 
 
     return (
-     <section className='d-flex row justify-content-center'>
-      <div className='col-lg-5 m-5'>
+     <section className='d-flex justify-content-center align-items-center text-center border'>
+      <div className='d-flex container-lg'>
+        <div className='display-2 text-center'>Contact Me!</div>
+      </div>
+      <div className='container-lg'>
         <div className='justify-content-center align-items-center p-4 m-4'>
         <form className="form">
           <input
@@ -73,7 +76,7 @@ function Contact() {
             type="text"
             placeholder="Your Message"
           />
-          <button type="button" onClick={handleFormSubmit}>Submit</button>
+          <button className='btn rounded' type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         </div>
         {errorMessage && (
