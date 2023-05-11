@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7Breact-portfolio%7D/static/css/main.0f7dcec4.css",
+    "main.js": "/%7Breact-portfolio%7D/static/js/main.9bdb5948.js",
+    "index.html": "/%7Breact-portfolio%7D/index.html",
+    "main.0f7dcec4.css.map": "/%7Breact-portfolio%7D/static/css/main.0f7dcec4.css.map",
+    "main.9bdb5948.js.map": "/%7Breact-portfolio%7D/static/js/main.9bdb5948.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7dcec4.css",
+    "static/js/main.9bdb5948.js"
+  ]
+}
