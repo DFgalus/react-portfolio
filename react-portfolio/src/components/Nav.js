@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
+
 function Nav({ page, handlePage}) {
   return (
     <nav className="navbar navbar-expand-md bg-body-tertiary shadow-lg">

@@ -28,3 +28,11 @@ a.btn {
     margin-bottom: 5px;
     width: 100%;
 }
+
+svg {
+    color: black;
+}
+
+img {
+    color: #0b525b;
+}
