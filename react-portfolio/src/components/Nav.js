@@ -41,8 +41,8 @@ function Nav({ page, handlePage}) {
             </li>
             <li className="nav-item">
             <a 
-             href="#Resume"
-             onClick={(e) => handlePage(e, 'resume')}
+             href="./images/resume.pdf"
+            //  onClick={(e) => handlePage(e, 'resume')}
              className={page === 'resume' ? 'nav-link active' : 'nav-link text-light'}
             >
                 Resume
