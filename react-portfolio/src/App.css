@@ -10,6 +10,11 @@ a.btn {
     background-color: #0b525b;
 }
 
+.btn.rounded {
+    color: white;
+    background-color: #0b525b;
+}
+
 .navbar {
     background-color: #006466;
 }
