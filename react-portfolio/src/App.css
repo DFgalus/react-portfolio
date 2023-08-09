@@ -36,3 +36,7 @@ svg {
 img {
     color: #0b525b;
 }
+
+a.btn.text-light:hover {
+    background-color: grey;
+}
