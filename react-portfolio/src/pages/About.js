@@ -12,7 +12,7 @@ export default function About() {
                         <a href='mailto:damiangdev@gmail.com' type='button' className='btn text-light'>Contact Me</a>
                     </div>
                     <div className='col-lg-5 text center h-25 w-25 pt-4 mt-4'>
-                        <img className='img-fluid align-items-center rounded' src='/images/vectordesign.png' alt='PFP'></img>
+                        <img className='img-fluid align-items-center rounded' src='./images/vectordesign.png' alt='PFP'></img>
                     </div>
                 </div>
             </div>
